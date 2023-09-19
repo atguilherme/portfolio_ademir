@@ -7,6 +7,7 @@ import { Button } from "@/styles/Buttons";
 import { Stack } from "@/components/Stack";
 import { Project } from "@/components/Project";
 import { Contacts } from "@/components/Contacts";
+import { AboutMe } from "@/components/aboutMe";
 
 // Data
 import { stackData } from "@/utils/stackData";
@@ -44,18 +45,21 @@ export const Home = (): JSX.Element => {
                 width={"48px"}
                 height={"48px"}
               />
-              <Text color="grey4">Hello, my name is {userData.nameUser}</Text>
+              <Text color="grey4">Hi, I'm {userData.nameUser}</Text>
             </Flex>
             <Text as="h1" type="heading1" color="grey5">
-            I{" "}
+              My{" "}
               <Text as="span" type="heading1" color="brand1">
-                love
+                passion
               </Text>{" "}
-              creating and{" "}
+              is to develop solutions that help{" "}
               <Text as="span" type="heading1" color="brand1">
-                developing
+                People
               </Text>{" "}
-              projects
+              and{" "}
+              <Text as="span" type="heading1" color="brand1">
+                Companies
+              </Text>{" "}
             </Text>
             <Text type="body1" color="grey2">
               Discover here in this environment, created especially for you, all
